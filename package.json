@@ -1,0 +1,25 @@
+{
+  "name": "javascriptservers",
+  "version": "1.0.0",
+  "description": "The course provides knowledge of concepts, processes and tools for conventions and solutions to set up a development environment for building server-based JavaScript solutions and deploy these servers on a local computer",
+
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "nodemon Templates/static/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NORZACO/JavaScriptServers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NORZACO/JavaScriptServers/issues"
+  },
+  "homepage": "https://github.com/NORZACO/JavaScriptServers#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
